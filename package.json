@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Maik Hummel <yo@beevelop.com>",
   "dependencies": {
+    "corci-libs": "git://github.com/beevelop/corci-libs",
     "socket.io-client": "^1.2.1"
   },
   "devDependencies": {
