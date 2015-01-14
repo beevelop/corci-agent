@@ -52,7 +52,8 @@ function Cmd(platformName, platformClass) {
         .argv;
 
     conf.agent = platformName;
-    var agent = new Agent(config, platformClass);
+    conf.url = '{0}://{1}{2}'.format(conf.protocol, conf.host, conf.port === 80 ? '' : ':' + conf.port);
+    var agent = new Agent(conf, platformClass);
     agent.connect();
 }
 
