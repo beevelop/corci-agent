@@ -18,31 +18,31 @@ function Cmd(platformName, platformClass) {
         .options('p', {
             alias: 'port',
             default: 8000,
-            describe: 'Port the server should use'
+            describe: 'Port the agent should connect to'
         })
         .options('q', {
             alias: 'protocol',
             default: 'http',
-            describe: 'Protocol the server should use (https requires key and cert argument)'
+            describe: 'Protocol the server is reachable at (https requires key and cert argument)'
         })
         .options('h', {
             alias: 'host',
             default: 'localhost',
-            describe: 'Hostname the server should use'
+            describe: 'the server\'s hostname'
         })
         .options('k', {
             alias: 'keep',
             default: 0,
-            describe: 'Amount of builds to keep (0 = unlimited)'
+            describe: 'Amount of builds in location to keep (0 = unlimited)'
         })
         .options('l', {
             alias: 'location',
             default: 'builds',
-            describe: 'Path to the builds directory'
+            describe: 'Path to the working directory'
         })
         .options('n', {
             alias: 'name',
-            describe: 'Name of this agent'
+            describe: 'this agent\'s name'
         })
         .options('reuseworkfolder', {
             boolean: true,
