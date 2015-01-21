@@ -1,7 +1,6 @@
 {
   "name": "corci-agent",
   "version": "0.0.1",
-  "description": "corci-agent",
   "main": "index.js",
   "author": "Maik Hummel <yo@beevelop.com>",
   "dependencies": {
@@ -16,18 +15,5 @@
   "scripts": {
     "test": "grunt --verbose"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/beevelop/corci-agent"
-  },
-  "bugs": {
-    "url": "https://github.com/beevelop/corci-agent/issues"
-  },
-  "private": true,
-  "keywords": [
-    "cordova",
-    "phonegap",
-    "build",
-    "server"
-  ]
+  "private": true
 }
