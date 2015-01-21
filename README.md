@@ -2,9 +2,9 @@
 [![Dependency Status](https://gemnasium.com/beevelop/corci-agent.svg)](https://gemnasium.com/beevelop/corci-agent)
 [![Code Climate](https://codeclimate.com/github/beevelop/corci-agent/badges/gpa.svg)](https://codeclimate.com/github/beevelop/corci-agent)
 
-# corCI-agent
+# CorCI-agent
 
-Library for all corCI-agents
+Library for all CorCI-agents
 
 # Disclaimer
 
