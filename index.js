@@ -14,7 +14,7 @@ function Cmd(platformName, platformClass) {
         .version('0.0.1', 'v')
         .alias('v', 'version')
         .showHelpOnFail(true)
-        .usage('Connects the corCI-agent to the corCI-master.\nUsage: $0')
+        .usage('Connects the CorCI-agent to the corCI-master.\nUsage: $0')
         .options('p', {
             alias: 'port',
             default: 8000,
