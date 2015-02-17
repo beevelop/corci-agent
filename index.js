@@ -23,6 +23,7 @@ function Cmd(Captain) {
         .alias('v', 'version')
         .showHelpOnFail(true)
         .usage('Connects the CorCI-agent to the corCI-master.\nUsage: $0')
+        .config('c')
         .options('p', {
             alias: 'port',
             default: 8000,
