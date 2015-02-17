@@ -1,10 +1,10 @@
 {
   "name": "corci-agent",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
   "author": "Maik Hummel <yo@beevelop.com>",
   "dependencies": {
-    "corci-libs": "git://github.com/beevelop/corci-libs",
+    "corci-libs": "beevelop/corci-libs",
     "socket.io-client": "^1.2.1"
   },
   "devDependencies": {
